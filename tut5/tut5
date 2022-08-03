@@ -1,0 +1,13 @@
+This tut is inspired by https://docs.python.org/3/tutorial/datastructures.html# and talks about data structures in python.
+1. Lists
+List is a python datatype which can store values in an indexed fashion.
+It has methods like append, extend, insert, remove, pop, index, count, sort, reverse.
+Using these methods one can implement arrays,  stacks and queues in python
+All list methods are available on the link shown above.
+List comprehension:
+	This is used to generate a list from an iterable.
+	The list comprehension allows us to create powerfull one liners to replace the existing looping techniques.
+2. Misc( Lambda functions and zip function):
+lambda functions are functions declared using the lambda keyword. can be declared in the same line.
+zip function takes in iterables as argument, and returns the values at the same index as tuples.
+
