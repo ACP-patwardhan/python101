@@ -10,4 +10,11 @@ List comprehension:
 2. Misc( Lambda functions and zip function):
 lambda functions are functions declared using the lambda keyword. can be declared in the same line.
 zip function takes in iterables as argument, and returns the values at the same index as tuples.
+3. Tuples
+Tuples are sequential iterables.they are immutable. and can be unpacked and assigned.
+They are enclosed in () and can be nested as well
+sequence unpacking works for any iterable.only condition being nuber of variables on left of = should be same as number of items in the iterable.
+4. Sets
+They are unordered collections , and remove duplicate elements.
+They support all the algebraic operations on a set like union,intersection, difference, symmetric difference
 

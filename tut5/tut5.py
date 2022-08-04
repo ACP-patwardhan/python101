@@ -41,6 +41,32 @@ def ex3():
     print('transpose  of', l, 'is' ,z)
     print()
 
+def ex4():
+    '''exapmple describing tuples'''
+    x=1,2,3,('a',4)
+    print('example 4:')
+    print(x)
+    a,b,c,d = x
+    print(a,b,c,d)
+    print()
+
+def ex5():
+    '''example describing sets'''
+    s1 = {1,1,2,3,4,4,5,'app','orange','app'}
+    s2 = set('abracadabra')
+    s3 = set('alacazam')
+    print('example 5:')
+    print('s1 is',s1)
+    print('s2 is',s2)
+    print('s3 is',s3)
+    print('s3 union s2',s2|s3)
+    print('s3 intersection s2',s3&s2)
+    print('difference of s2,s3',s2-s3)
+    print('symmetric difference of s2,s3',s2^s3)
+    print()
+
 ex1()
 ex2()
 ex3()
+ex4()
+ex5()
