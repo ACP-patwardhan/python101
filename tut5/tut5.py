@@ -65,8 +65,22 @@ def ex5():
     print('symmetric difference of s2,s3',s2^s3)
     print()
 
+def ex6():
+    '''example describing dicts'''
+    d1={'apple':'fruit','ball':'object','cat':'animal','dog':'animal'}
+    print('example 6:')
+    for k,v in d1.items():
+        print('key is',k,'value is',v)
+    print('d1 is',d1)
+    d2=dict([('a',123),('b',234)])
+    d3=dict(c=100,d='dog')
+    print('d2 is',d2)
+    print('d3 is',d3)
+    print()
+
 ex1()
 ex2()
 ex3()
 ex4()
 ex5()
+ex6()
